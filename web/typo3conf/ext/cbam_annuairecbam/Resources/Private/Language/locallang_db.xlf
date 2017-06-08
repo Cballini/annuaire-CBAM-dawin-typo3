@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-06-08T14:45:14Z" product-name="cbam_annuairecbam">
+		<header/>
+		<body>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_contact">
+				<source>Contact</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_contact.lastname">
+				<source>Lastname</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_contact.firstname">
+				<source>Firstname</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_contact.phone">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_contact.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_contact.address">
+				<source>Address</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_contact.postal_code">
+				<source>Postal Code</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_contact.city">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_contact.picture">
+				<source>Picture</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_contact.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_contact.corporation">
+				<source>Corporation</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_contact.position">
+				<source>Position</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_contact.service">
+				<source>Service</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_corporation">
+				<source>Corporation</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_corporation.company_name">
+				<source>Company Name</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_corporation.address">
+				<source>Address</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_corporation.postal_code">
+				<source>Postal Code</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_corporation.city">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_corporation.phone">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_corporation.fax">
+				<source>Fax</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_corporation.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_corporation.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_corporation.siret">
+				<source>Siret</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_corporation.logo">
+				<source>Logo</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_corporation.schedule">
+				<source>Schedule</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_position">
+				<source>Position</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_position.denomination">
+				<source>Denomination</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_position.manager">
+				<source>Manager</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_service">
+				<source>Service</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_service.denomination">
+				<source>Denomination</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_service.building">
+				<source>Building</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_service.office">
+				<source>Office</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_service.phone">
+				<source>Phone</source>
+			</trans-unit>
+			<trans-unit id="tx_cbamannuairecbam_domain_model_service.schedule">
+				<source>Schedule</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

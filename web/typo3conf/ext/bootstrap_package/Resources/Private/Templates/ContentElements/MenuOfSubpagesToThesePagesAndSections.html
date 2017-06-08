@@ -1,0 +1,28 @@
+<f:layout name="Default"/>
+<f:section name="Header">
+
+    <f:render partial="Header/All" arguments="{_all}" />
+
+</f:section>
+<f:section name="Main">
+
+    <f:if condition="{menu}">
+        <ul>
+            <f:for each="{menu}" as="page">
+                <li>
+                    <a href="{page.link}" target="{page.target}" title="{page.title}">{page.title}</a>
+                    <f:if condition="{page.content}">
+                        <ul>
+                            <f:for each="{page.content}" as="element">
+                                <li>
+                                    <a href="{page.link}#c{element.data.uid}" target="{page.target}" title="{element.data.header}">{element.data.header}</a>
+                                </li>
+                            </f:for>
+                        </ul>
+                    </f:if>
+                </li>
+            </f:for>
+        </ul>
+    </f:if>
+
+</f:section>

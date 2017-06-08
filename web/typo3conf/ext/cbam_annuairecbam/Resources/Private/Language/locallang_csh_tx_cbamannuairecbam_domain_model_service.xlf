@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-06-08T14:45:14Z" product-name="cbam_annuairecbam">
+		<header/>
+		<body>
+			<trans-unit id="denomination.description">
+				<source>denomination</source>
+			</trans-unit>
+			<trans-unit id="building.description">
+				<source>building</source>
+			</trans-unit>
+			<trans-unit id="office.description">
+				<source>office</source>
+			</trans-unit>
+			<trans-unit id="phone.description">
+				<source>phone</source>
+			</trans-unit>
+			<trans-unit id="schedule.description">
+				<source>schedule</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

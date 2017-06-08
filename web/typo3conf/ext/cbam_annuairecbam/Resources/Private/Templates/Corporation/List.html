@@ -1,0 +1,57 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1>Listing for Corporation</h1>
+
+<f:flashMessages />
+
+<table  class="tx_cbamannuairecbam" >
+	<tr>
+		<th><f:translate key="tx_cbamannuairecbam_domain_model_corporation.company_name" /></th>
+		<th><f:translate key="tx_cbamannuairecbam_domain_model_corporation.address" /></th>
+		<th><f:translate key="tx_cbamannuairecbam_domain_model_corporation.postal_code" /></th>
+		<th><f:translate key="tx_cbamannuairecbam_domain_model_corporation.city" /></th>
+		<th><f:translate key="tx_cbamannuairecbam_domain_model_corporation.phone" /></th>
+		<th><f:translate key="tx_cbamannuairecbam_domain_model_corporation.fax" /></th>
+		<th><f:translate key="tx_cbamannuairecbam_domain_model_corporation.email" /></th>
+		<th><f:translate key="tx_cbamannuairecbam_domain_model_corporation.description" /></th>
+		<th><f:translate key="tx_cbamannuairecbam_domain_model_corporation.siret" /></th>
+		<th><f:translate key="tx_cbamannuairecbam_domain_model_corporation.logo" /></th>
+		<th><f:translate key="tx_cbamannuairecbam_domain_model_corporation.schedule" /></th>
+		<th> </th>
+		<th> </th>
+	</tr>
+
+	<f:for each="{corporations}" as="corporation">
+		<tr>
+			<td><f:link.action action="show" arguments="{corporation : corporation}"> {corporation.companyName}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{corporation : corporation}"> {corporation.address}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{corporation : corporation}"> {corporation.postalCode}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{corporation : corporation}"> {corporation.city}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{corporation : corporation}"> {corporation.phone}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{corporation : corporation}"> {corporation.fax}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{corporation : corporation}"> {corporation.email}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{corporation : corporation}"> {corporation.description}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{corporation : corporation}"> {corporation.siret}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{corporation : corporation}"> {corporation.logo.originalResource.name}</f:link.action></td>
+			<td><f:link.action action="show" arguments="{corporation : corporation}"> {corporation.schedule}</f:link.action></td>
+			<td><f:link.action action="edit" arguments="{corporation : corporation}">Edit</f:link.action></td>
+			<td><f:link.action action="delete" arguments="{corporation : corporation}">Delete</f:link.action></td>
+		</tr>
+	</f:for>
+</table>
+
+<f:link.action action="new">New Corporation</f:link.action>
+</f:section>
