@@ -82,3 +82,4 @@ The TYPO3 website is available at http://localhost:8080/ and the backend at http
 - [Composer and TYPO3 7LTS](https://usetypo3.com/typo3-and-composer.html)
 - [How to configure class loading for extensions in TYPO3 7LTS](http://insight.helhum.io/post/130876393595/how-to-configure-class-loading-for-extensions-in)
 - [Add a Git repository as a package using Composer for PHP](http://www.andrew-kirkpatrick.com/2012/10/add-a-git-repository-as-a-package-using-composer-for-php/)
+# annuaire-CBAM-dawin-typo3
